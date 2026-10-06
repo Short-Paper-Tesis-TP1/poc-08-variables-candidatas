@@ -1,0 +1,19 @@
+
+Mujeres: 202,448 | emprendedoras: 62,091 | TARGET=1: 7.00 % | 73 s
+
+Configuración                           AUC todas   mejora  AUC empr.   mejora  regla
+BASE (8 variables, monotónico)             0.6422  +0.0000     0.6291  +0.0000  -
+BASE sin restricciones monotónicas         0.6562  +0.0140     0.6471  +0.0180  PASA
++ anios_trabajo_negocio                    0.6529  +0.0107     0.6409  +0.0118  PASA
++ vivienda_propia                          0.6421  -0.0002     0.6302  +0.0011  -
++ tipo_vivienda                            0.6417  -0.0006     0.6286  -0.0005  -
++ estado_civil                             0.6442  +0.0020     0.6314  +0.0023  -
++ miembros_hogar                           0.6431  +0.0009     0.6301  +0.0010  -
++ n_creditos_historicos                    0.6505  +0.0083     0.6372  +0.0081  PASA
++ anios_historial_credito                  0.6551  +0.0129     0.6404  +0.0113  PASA
++ n_rechazos                               0.6532  +0.0109     0.6391  +0.0100  PASA
++ TODAS las candidatas                     0.6776  +0.0353     0.6627  +0.0336  PASA
+
+% de faltantes en las candidatas: {'anios_trabajo_negocio': 22.36, 'vivienda_propia': 0.0, 'tipo_vivienda': 0.0, 'estado_civil': 0.0, 'miembros_hogar': 0.0, 'n_creditos_historicos': 13.64, 'anios_historial_credito': 13.64, 'n_rechazos': 0.0}
+
+Guardado: resultado_poc_variables.json

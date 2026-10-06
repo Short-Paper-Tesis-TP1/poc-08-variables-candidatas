@@ -1,0 +1,114 @@
+{
+  "resultados": {
+    "BASE (8 variables, monotónico)": {
+      "auc_todas": 0.6422395057594263,
+      "sd_todas": 0.003800797015770836,
+      "auc_emprendedoras": 0.6290783829493021,
+      "sd_emprendedoras": 0.0037651148026239057,
+      "mejora_todas": 0.0,
+      "mejora_emprendedoras": 0.0,
+      "pasa_regla": false
+    },
+    "BASE sin restricciones monotónicas": {
+      "auc_todas": 0.6562356152770852,
+      "sd_todas": 0.004276260329311665,
+      "auc_emprendedoras": 0.6470936391247445,
+      "sd_emprendedoras": 0.003102082257459157,
+      "mejora_todas": 0.013996109517658839,
+      "mejora_emprendedoras": 0.018015256175442418,
+      "pasa_regla": true
+    },
+    "+ anios_trabajo_negocio": {
+      "auc_todas": 0.652931782076824,
+      "sd_todas": 0.0022253023217212063,
+      "auc_emprendedoras": 0.6408602881981341,
+      "sd_emprendedoras": 0.007043509337459487,
+      "mejora_todas": 0.010692276317397664,
+      "mejora_emprendedoras": 0.011781905248832047,
+      "pasa_regla": true
+    },
+    "+ vivienda_propia": {
+      "auc_todas": 0.6420857229841432,
+      "sd_todas": 0.0030334418606123006,
+      "auc_emprendedoras": 0.6302084916346404,
+      "sd_emprendedoras": 0.003967318137760713,
+      "mejora_todas": -0.0001537827752831067,
+      "mejora_emprendedoras": 0.0011301086853383602,
+      "pasa_regla": false
+    },
+    "+ tipo_vivienda": {
+      "auc_todas": 0.6416785439118096,
+      "sd_todas": 0.0033760262084229697,
+      "auc_emprendedoras": 0.6285820128698839,
+      "sd_emprendedoras": 0.003775558566715102,
+      "mejora_todas": -0.000560961847616781,
+      "mejora_emprendedoras": -0.0004963700794181625,
+      "pasa_regla": false
+    },
+    "+ estado_civil": {
+      "auc_todas": 0.6442240122339167,
+      "sd_todas": 0.003442429723495802,
+      "auc_emprendedoras": 0.6314090226221609,
+      "sd_emprendedoras": 0.0037795669002089576,
+      "mejora_todas": 0.001984506474490333,
+      "mejora_emprendedoras": 0.0023306396728588474,
+      "pasa_regla": false
+    },
+    "+ miembros_hogar": {
+      "auc_todas": 0.6431145141456243,
+      "sd_todas": 0.00338841682829027,
+      "auc_emprendedoras": 0.6300845285559145,
+      "sd_emprendedoras": 0.003284068906755928,
+      "mejora_todas": 0.0008750083861979174,
+      "mejora_emprendedoras": 0.0010061456066123853,
+      "pasa_regla": false
+    },
+    "+ n_creditos_historicos": {
+      "auc_todas": 0.6505148822317357,
+      "sd_todas": 0.0026527258262833155,
+      "auc_emprendedoras": 0.6372191723447781,
+      "sd_emprendedoras": 0.0025173202016741227,
+      "mejora_todas": 0.00827537647230936,
+      "mejora_emprendedoras": 0.008140789395476022,
+      "pasa_regla": true
+    },
+    "+ anios_historial_credito": {
+      "auc_todas": 0.6550932114636577,
+      "sd_todas": 0.0034472189944040168,
+      "auc_emprendedoras": 0.6403565791276903,
+      "sd_emprendedoras": 0.0022052109723166603,
+      "mejora_todas": 0.012853705704231388,
+      "mejora_emprendedoras": 0.011278196178388211,
+      "pasa_regla": true
+    },
+    "+ n_rechazos": {
+      "auc_todas": 0.6531839602878078,
+      "sd_todas": 0.003815362591498079,
+      "auc_emprendedoras": 0.6390807895198537,
+      "sd_emprendedoras": 0.0061998630969175425,
+      "mejora_todas": 0.010944454528381442,
+      "mejora_emprendedoras": 0.010002406570551625,
+      "pasa_regla": true
+    },
+    "+ TODAS las candidatas": {
+      "auc_todas": 0.6775581425048021,
+      "sd_todas": 0.0026816225875498268,
+      "auc_emprendedoras": 0.6626878382728282,
+      "sd_emprendedoras": 0.0031418448886132554,
+      "mejora_todas": 0.03531863674537572,
+      "mejora_emprendedoras": 0.033609455323526105,
+      "pasa_regla": true
+    }
+  },
+  "faltantes_candidatas_pct": {
+    "anios_trabajo_negocio": 22.36,
+    "vivienda_propia": 0.0,
+    "tipo_vivienda": 0.0,
+    "estado_civil": 0.0,
+    "miembros_hogar": 0.0,
+    "n_creditos_historicos": 13.64,
+    "anios_historial_credito": 13.64,
+    "n_rechazos": 0.0
+  },
+  "regla": "mejora >= 0.005 en todas y en emprendedoras (CV 5 folds)"
+}
